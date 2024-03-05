@@ -57,3 +57,48 @@ input:valid ~ label
     top: -3px;
     font-size: 0.9rem;
 } 
+@media only screen and (max-width: 500px) {
+    .box_1
+{
+    padding: 30px;
+    margin-top: 50px;
+    position: relative;
+    display: block;
+    width: 70%;
+    height: auto;
+    background: rgb(0, 145, 242);
+    border-radius: 50px;
+}
+.header
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.header-text
+{
+    color: white;
+    font-size: 30px;
+    word-wrap: break-word;
+    font-weight: bolder;
+}
+.box-form
+{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type="text"], input[type="password"], textarea {
+    padding: 5px 0;
+  width: 100px; 
+}
+input:focus ~ label,
+input:valid ~ label
+{
+    top: -3px;
+    font-size: 0.9rem;
+}
+}
